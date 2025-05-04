@@ -36,7 +36,7 @@ android {
                 appId = "1:777663286370:android:6c4af0099cc9fae638953b"
                 artifactType = "APK"
 //                releaseNotesFile = "path/to/releasenotes.txt"
-                testers = "ahmeddly30971@gmail.com"
+                testers = "ahmedyousry449@gmail.com"
 
 
             }
