@@ -1,15 +1,37 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+**/build/
+
+# Local SDK/Config
 local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# macOS system files
+.DS_Store
+
+# Android build artifacts
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Firebase (optional - only if using it)
+google-services.json
+firebase-debug.log
+.firebase/
+
+# Sensitive keys
+*.jks
+*.keystore
+
+# Logs
+*.log
+*.hprof
