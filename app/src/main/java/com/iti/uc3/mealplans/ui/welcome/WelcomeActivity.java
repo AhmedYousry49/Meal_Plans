@@ -2,6 +2,7 @@ package com.iti.uc3.mealplans.ui.welcome;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.iti.uc3.mealplans.R;
 import com.iti.uc3.mealplans.databinding.ActivityLoginBinding;
 import com.iti.uc3.mealplans.databinding.ActivityWelcomeBinding;
+import com.iti.uc3.mealplans.network.repository.DataRepository;
 import com.iti.uc3.mealplans.ui.login.view.LoginActivity;
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -32,6 +34,7 @@ public class WelcomeActivity extends AppCompatActivity {
             finish();
         });
 
+           ;
 
         }
 

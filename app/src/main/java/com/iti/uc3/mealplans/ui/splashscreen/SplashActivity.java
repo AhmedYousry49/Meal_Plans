@@ -18,6 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.iti.uc3.mealplans.R;
 import com.iti.uc3.mealplans.network.firebase.AuthModel;
+import com.iti.uc3.mealplans.network.repository.DataRepository;
 import com.iti.uc3.mealplans.ui.main.view.MainActivity;
 import com.iti.uc3.mealplans.ui.welcome.WelcomeActivity;
 
@@ -63,7 +64,6 @@ public class SplashActivity extends AppCompatActivity {
         Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
         Animation slideUp = AnimationUtils.loadAnimation(this, R.anim.slide_up);
         AuthModel model = AuthModel.getInstance();
-
         logo.startAnimation(fadeIn);
         title.startAnimation(slideUp);
 
@@ -80,6 +80,8 @@ public class SplashActivity extends AppCompatActivity {
             }
 
         }, 2000);
+        DataRepository.getInstance(this);// to loading some data
+
 
 
 

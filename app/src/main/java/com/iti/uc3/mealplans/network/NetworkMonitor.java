@@ -38,6 +38,8 @@ public class NetworkMonitor {
             return networkInfo != null && networkInfo.isConnected();
         }
     }
+
+
     public boolean isNetworkAvailable(Context context) {
        return getInstance(context).isNetworkAvailable();
     }
