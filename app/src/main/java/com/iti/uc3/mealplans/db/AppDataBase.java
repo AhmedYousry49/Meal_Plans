@@ -1,17 +1,13 @@
-package com.example.foodplanning.db;
+package com.iti.uc3.mealplans.db;
 
 
 import android.content.Context;
 
-import androidx.lifecycle.LifecycleOwner;
-import androidx.lifecycle.Observer;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.example.foodplanning.model.Meal;
-
-import java.util.List;
+import com.iti.uc3.mealplans.model.Meal;
 
 
 @Database(entities = {Meal.class}, version = 3)

@@ -1,7 +1,7 @@
-package com.example.foodplanning.network.dao;
+package com.iti.uc3.mealplans.network.dao;
 
-import com.example.foodplanning.model.CountryResponse;
-import com.example.foodplanning.model.MealResponse;
+import com.iti.uc3.mealplans.model.CountryResponse;
+import com.iti.uc3.mealplans.model.MealResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -11,8 +11,8 @@ public interface ICountriesDAO {
 
 
 
-    @GET("list.php?a=list")
+    @GET("api/json/v1/1/list.php?a=list")
     Call<CountryResponse> getAllCountries();
-    @GET("filter.php")
+    @GET("api/json/v1/1/filter.php")
     Call<MealResponse> getMealsByCountry(@Query("a") String country);
 }

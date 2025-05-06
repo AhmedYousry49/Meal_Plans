@@ -1,4 +1,4 @@
-package com.example.foodplanning.model;
+package com.iti.uc3.mealplans.model;
 
 import com.google.gson.annotations.SerializedName;
 

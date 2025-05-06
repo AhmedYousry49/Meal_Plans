@@ -1,4 +1,4 @@
-package com.example.foodplanning.db;
+package com.iti.uc3.mealplans.db;
 
 
 import androidx.lifecycle.LiveData;
@@ -9,7 +9,8 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.example.foodplanning.model.Meal;
+
+import com.iti.uc3.mealplans.model.Meal;
 
 import java.util.List;
 

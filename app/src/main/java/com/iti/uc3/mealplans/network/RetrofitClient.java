@@ -1,9 +1,10 @@
-package com.example.foodplanning.network;
+package com.iti.uc3.mealplans.network;
 
 
 import android.content.Context;
 
-import com.example.foodplanning.network.dao.IDataDAO;
+
+import com.iti.uc3.mealplans.network.dao.IDataDAO;
 
 import okhttp3.Cache;
 import okhttp3.OkHttpClient;
@@ -20,7 +21,7 @@ public class RetrofitClient {
     //private DataDAO mealApiInterface;
 
     Retrofit retrofit;
-    private static final String BASE_URL = "https://www.themealdb.com/api/json/v1/1/";
+    private static final String BASE_URL = "https://www.themealdb.com/";
 
     private RetrofitClient(Context context) {
 

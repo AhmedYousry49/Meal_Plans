@@ -1,7 +1,7 @@
-package com.example.foodplanning.network.dao;
+package com.iti.uc3.mealplans.network.dao;
 
-import com.example.foodplanning.model.CategoryResponse;
-import com.example.foodplanning.model.MealResponse;
+import com.iti.uc3.mealplans.model.CategoryResponse;
+import com.iti.uc3.mealplans.model.MealResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -9,10 +9,10 @@ import retrofit2.http.Query;
 
 public interface ICategoriesDAO {
 
-    @GET("categories.php")
+    @GET("api/json/v1/1/categories.php")
     Call<CategoryResponse> getAllCategories();
 
-    @GET("filter.php")
+    @GET("api/json/v1/1/filter.php")
     Call<MealResponse> getMealsByCategory(@Query("c") String category);
 
 }

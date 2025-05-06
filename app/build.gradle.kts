@@ -115,6 +115,25 @@ dependencies {
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
 
 
+    implementation ("com.google.code.gson:gson:2.8.0")
+    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
+
+
+    implementation ("com.squareup.retrofit2:adapter-rxjava2:2.11.0")
+
+    implementation ("io.reactivex.rxjava2:rxandroid:2.1.1")
+
+    implementation ("io.reactivex.rxjava3:rxjava:3.1.5")
+
+
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("androidx.room:room-runtime:2.7.0")
+    annotationProcessor ("androidx.room:room-compiler:2.7.0")
+
+
+
+
 
 
 

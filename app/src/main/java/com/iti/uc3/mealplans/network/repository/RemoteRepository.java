@@ -1,7 +1,18 @@
-package com.example.foodplanning.repository;
+package com.iti.uc3.mealplans.network.repository;
 
 import android.content.Context;
 import android.util.Log;
+
+import com.iti.uc3.mealplans.model.CategoryResponse;
+import com.iti.uc3.mealplans.model.CountryResponse;
+import com.iti.uc3.mealplans.model.IngredientResponse;
+import com.iti.uc3.mealplans.model.MealResponse;
+import com.iti.uc3.mealplans.network.RetrofitClient;
+import com.iti.uc3.mealplans.network.dao.IDataDAO;
+import com.iti.uc3.mealplans.network.delegate.ICategoriesDelegate;
+import com.iti.uc3.mealplans.network.delegate.ICountriesDelegate;
+import com.iti.uc3.mealplans.network.delegate.IIngredientsDelegate;
+import com.iti.uc3.mealplans.network.delegate.IMealsDelegate;
 
 import retrofit2.Call;
 import retrofit2.Callback;

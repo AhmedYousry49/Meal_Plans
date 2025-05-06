@@ -1,7 +1,7 @@
-package com.example.foodplanning.network.delegate;
+package com.iti.uc3.mealplans.network.delegate;
 
-import com.example.foodplanning.model.Ingredient;
-import com.example.foodplanning.model.Meal;
+
+import com.iti.uc3.mealplans.model.Ingredient;
 
 import java.util.List;
 
