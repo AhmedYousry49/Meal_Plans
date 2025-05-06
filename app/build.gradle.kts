@@ -58,7 +58,7 @@ android {
                 appId = "1:777663286370:android:6c4af0099cc9fae638953b"
                 artifactType = "APK"
 //                releaseNotesFile = "path/to/releasenotes.txt"
-                testers = "ahmeddly30971@gmail.com"
+                testers = "ahmedyousry449@gmail.com"
 
 
             }
@@ -95,6 +95,7 @@ dependencies {
     // Import the Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
 
+
     // When using the BoM, you don't specify versions in Firebase library dependencies
 
     // Add the dependency for the Firebase SDK for Google Analytics
@@ -119,3 +120,4 @@ dependencies {
 
 
 }
+
